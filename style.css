@@ -1,17 +1,22 @@
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-img {
-  width: 450px;
-  height: 600px;
-  margin: 10px;
+  flex-wrap: start;
+  justify-content: space-around;
 }
 
 h1 {
   font-size: 5em;
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
+}
+
+img {
+  width: 450px;
+  height: 600px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
